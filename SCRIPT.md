@@ -2130,278 +2130,488 @@ G2L["ee"] = Instance.new("LocalScript", G2L["e5"]);
 G2L["ee"]["Name"] = [[TextBoxHandler]];
 
 
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag
+G2L["ef"] = Instance.new("TextButton", G2L["e5"]);
+G2L["ef"]["TextWrapped"] = true;
+G2L["ef"]["BorderSizePixel"] = 0;
+G2L["ef"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["ef"]["TextSize"] = 40;
+G2L["ef"]["TextScaled"] = true;
+G2L["ef"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ef"]["FontFace"] = Font.new([[rbxassetid://12187365104]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ef"]["Size"] = UDim2.new(0.95914, 0, 0.00028, 0);
+G2L["ef"]["BackgroundTransparency"] = 1;
+G2L["ef"]["Name"] = [[Fake Lag]];
+G2L["ef"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ef"]["Text"] = [[Fake Lag]];
+G2L["ef"]["Visible"] = false;
+G2L["ef"]["Position"] = UDim2.new(0, 0, 0.00024, 0);
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag.UIGradient
+G2L["f0"] = Instance.new("UIGradient", G2L["ef"]);
+G2L["f0"]["Rotation"] = 90;
+G2L["f0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.369, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag.UIStroke
+G2L["f1"] = Instance.new("UIStroke", G2L["ef"]);
+G2L["f1"]["Thickness"] = 3;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag.UITextSizeConstraint
+G2L["f2"] = Instance.new("UITextSizeConstraint", G2L["ef"]);
+G2L["f2"]["MaxTextSize"] = 69;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag.Online
+G2L["f3"] = Instance.new("TextBox", G2L["ef"]);
+G2L["f3"]["Visible"] = false;
+G2L["f3"]["Active"] = false;
+G2L["f3"]["Name"] = [[Online]];
+G2L["f3"]["BorderSizePixel"] = 0;
+G2L["f3"]["TextEditable"] = false;
+G2L["f3"]["TextWrapped"] = true;
+G2L["f3"]["TextSize"] = 14;
+G2L["f3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f3"]["TextScaled"] = true;
+G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f3"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["f3"]["Size"] = UDim2.new(0.80661, 0, 1.52531, 0);
+G2L["f3"]["Position"] = UDim2.new(28.10648, 0, 148.83604, 0);
+G2L["f3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f3"]["Text"] = [[OFF]];
+G2L["f3"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag.Online.UITextSizeConstraint
+G2L["f4"] = Instance.new("UITextSizeConstraint", G2L["f3"]);
+G2L["f4"]["MaxTextSize"] = 71;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag.LocalScript
+G2L["f5"] = Instance.new("LocalScript", G2L["ef"]);
+
+
+
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs
-G2L["ef"] = Instance.new("Folder", G2L["2c"]);
-G2L["ef"]["Name"] = [[Script Hubs]];
+G2L["f6"] = Instance.new("Folder", G2L["2c"]);
+G2L["f6"]["Name"] = [[Script Hubs]];
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.ButtonHandler
-G2L["f0"] = Instance.new("LocalScript", G2L["ef"]);
-G2L["f0"]["Name"] = [[ButtonHandler]];
+G2L["f7"] = Instance.new("LocalScript", G2L["f6"]);
+G2L["f7"]["Name"] = [[ButtonHandler]];
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub
-G2L["f1"] = Instance.new("TextButton", G2L["ef"]);
-G2L["f1"]["TextWrapped"] = true;
-G2L["f1"]["BorderSizePixel"] = 0;
-G2L["f1"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["f1"]["TextSize"] = 40;
-G2L["f1"]["TextScaled"] = true;
-G2L["f1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f1"]["FontFace"] = Font.new([[rbxassetid://12187365104]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f1"]["Size"] = UDim2.new(0.95914, 0, 0.00028, 0);
-G2L["f1"]["BackgroundTransparency"] = 1;
-G2L["f1"]["Name"] = [[Solara Hub]];
-G2L["f1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f1"]["Text"] = [[Solara Hub]];
-G2L["f1"]["Visible"] = false;
-G2L["f1"]["Position"] = UDim2.new(0, 0, -0.00004, 0);
+G2L["f8"] = Instance.new("TextButton", G2L["f6"]);
+G2L["f8"]["TextWrapped"] = true;
+G2L["f8"]["BorderSizePixel"] = 0;
+G2L["f8"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["f8"]["TextSize"] = 40;
+G2L["f8"]["TextScaled"] = true;
+G2L["f8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f8"]["FontFace"] = Font.new([[rbxassetid://12187365104]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f8"]["Size"] = UDim2.new(0.95914, 0, 0.00028, 0);
+G2L["f8"]["BackgroundTransparency"] = 1;
+G2L["f8"]["Name"] = [[Solara Hub]];
+G2L["f8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f8"]["Text"] = [[Solara Hub]];
+G2L["f8"]["Visible"] = false;
+G2L["f8"]["Position"] = UDim2.new(0, 0, -0.00004, 0);
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub.UIGradient
-G2L["f2"] = Instance.new("UIGradient", G2L["f1"]);
-G2L["f2"]["Rotation"] = 90;
-G2L["f2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.369, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+G2L["f9"] = Instance.new("UIGradient", G2L["f8"]);
+G2L["f9"]["Rotation"] = 90;
+G2L["f9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.369, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub.UIStroke
-G2L["f3"] = Instance.new("UIStroke", G2L["f1"]);
-G2L["f3"]["Thickness"] = 3;
+G2L["fa"] = Instance.new("UIStroke", G2L["f8"]);
+G2L["fa"]["Thickness"] = 3;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub.UITextSizeConstraint
-G2L["f4"] = Instance.new("UITextSizeConstraint", G2L["f1"]);
-G2L["f4"]["MaxTextSize"] = 69;
+G2L["fb"] = Instance.new("UITextSizeConstraint", G2L["f8"]);
+G2L["fb"]["MaxTextSize"] = 69;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub.LocalScript
-G2L["f5"] = Instance.new("LocalScript", G2L["f1"]);
+G2L["fc"] = Instance.new("LocalScript", G2L["f8"]);
 
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub.Online
-G2L["f6"] = Instance.new("TextBox", G2L["f1"]);
-G2L["f6"]["Visible"] = false;
-G2L["f6"]["Active"] = false;
-G2L["f6"]["Name"] = [[Online]];
-G2L["f6"]["BorderSizePixel"] = 0;
-G2L["f6"]["TextEditable"] = false;
-G2L["f6"]["TextWrapped"] = true;
-G2L["f6"]["TextSize"] = 14;
-G2L["f6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f6"]["TextScaled"] = true;
-G2L["f6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["f6"]["Size"] = UDim2.new(0.001, 0, 0.001, 0);
-G2L["f6"]["Position"] = UDim2.new(69420, 69, 69420, 69);
-G2L["f6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f6"]["Text"] = [[OFF]];
-G2L["f6"]["BackgroundTransparency"] = 1;
+G2L["fd"] = Instance.new("TextBox", G2L["f8"]);
+G2L["fd"]["Visible"] = false;
+G2L["fd"]["Active"] = false;
+G2L["fd"]["Name"] = [[Online]];
+G2L["fd"]["BorderSizePixel"] = 0;
+G2L["fd"]["TextEditable"] = false;
+G2L["fd"]["TextWrapped"] = true;
+G2L["fd"]["TextSize"] = 14;
+G2L["fd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fd"]["TextScaled"] = true;
+G2L["fd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fd"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["fd"]["Size"] = UDim2.new(0.001, 0, 0.001, 0);
+G2L["fd"]["Position"] = UDim2.new(69420, 69, 69420, 69);
+G2L["fd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fd"]["Text"] = [[OFF]];
+G2L["fd"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub.Online.UITextSizeConstraint
-G2L["f7"] = Instance.new("UITextSizeConstraint", G2L["f6"]);
-G2L["f7"]["MaxTextSize"] = 71;
+G2L["fe"] = Instance.new("UITextSizeConstraint", G2L["fd"]);
+G2L["fe"]["MaxTextSize"] = 71;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.TextBoxHandler
-G2L["f8"] = Instance.new("LocalScript", G2L["ef"]);
-G2L["f8"]["Name"] = [[TextBoxHandler]];
+G2L["ff"] = Instance.new("LocalScript", G2L["f6"]);
+G2L["ff"]["Name"] = [[TextBoxHandler]];
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius
-G2L["f9"] = Instance.new("TextButton", G2L["ef"]);
-G2L["f9"]["TextWrapped"] = true;
-G2L["f9"]["BorderSizePixel"] = 0;
-G2L["f9"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["f9"]["TextSize"] = 40;
-G2L["f9"]["TextScaled"] = true;
-G2L["f9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f9"]["FontFace"] = Font.new([[rbxassetid://12187365104]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["f9"]["Size"] = UDim2.new(0.95914, 0, 0.00028, 0);
-G2L["f9"]["BackgroundTransparency"] = 1;
-G2L["f9"]["Name"] = [[Sirius]];
-G2L["f9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f9"]["Text"] = [[Sirius]];
-G2L["f9"]["Visible"] = false;
-G2L["f9"]["Position"] = UDim2.new(0.47714, 0, 0.00038, 0);
+G2L["100"] = Instance.new("TextButton", G2L["f6"]);
+G2L["100"]["TextWrapped"] = true;
+G2L["100"]["BorderSizePixel"] = 0;
+G2L["100"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["100"]["TextSize"] = 40;
+G2L["100"]["TextScaled"] = true;
+G2L["100"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["100"]["FontFace"] = Font.new([[rbxassetid://12187365104]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["100"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["100"]["Size"] = UDim2.new(0.95914, 0, 0.00028, 0);
+G2L["100"]["BackgroundTransparency"] = 1;
+G2L["100"]["Name"] = [[Sirius]];
+G2L["100"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["100"]["Text"] = [[Sirius]];
+G2L["100"]["Visible"] = false;
+G2L["100"]["Position"] = UDim2.new(0.47714, 0, 0.00038, 0);
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius.UIGradient
-G2L["fa"] = Instance.new("UIGradient", G2L["f9"]);
-G2L["fa"]["Rotation"] = 90;
-G2L["fa"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.369, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+G2L["101"] = Instance.new("UIGradient", G2L["100"]);
+G2L["101"]["Rotation"] = 90;
+G2L["101"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.369, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius.UIStroke
-G2L["fb"] = Instance.new("UIStroke", G2L["f9"]);
-G2L["fb"]["Thickness"] = 3;
+G2L["102"] = Instance.new("UIStroke", G2L["100"]);
+G2L["102"]["Thickness"] = 3;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius.UITextSizeConstraint
-G2L["fc"] = Instance.new("UITextSizeConstraint", G2L["f9"]);
-G2L["fc"]["MaxTextSize"] = 69;
+G2L["103"] = Instance.new("UITextSizeConstraint", G2L["100"]);
+G2L["103"]["MaxTextSize"] = 69;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius.LocalScript
-G2L["fd"] = Instance.new("LocalScript", G2L["f9"]);
+G2L["104"] = Instance.new("LocalScript", G2L["100"]);
 
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius.Online
-G2L["fe"] = Instance.new("TextBox", G2L["f9"]);
-G2L["fe"]["Visible"] = false;
-G2L["fe"]["Active"] = false;
-G2L["fe"]["Name"] = [[Online]];
-G2L["fe"]["BorderSizePixel"] = 0;
-G2L["fe"]["TextEditable"] = false;
-G2L["fe"]["TextWrapped"] = true;
-G2L["fe"]["TextSize"] = 14;
-G2L["fe"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fe"]["TextScaled"] = true;
-G2L["fe"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fe"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["fe"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["fe"]["Size"] = UDim2.new(0.001, 0, 0.001, 0);
-G2L["fe"]["Position"] = UDim2.new(69420, 69, 69420, 69);
-G2L["fe"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fe"]["Text"] = [[OFF]];
-G2L["fe"]["BackgroundTransparency"] = 1;
+G2L["105"] = Instance.new("TextBox", G2L["100"]);
+G2L["105"]["Visible"] = false;
+G2L["105"]["Active"] = false;
+G2L["105"]["Name"] = [[Online]];
+G2L["105"]["BorderSizePixel"] = 0;
+G2L["105"]["TextEditable"] = false;
+G2L["105"]["TextWrapped"] = true;
+G2L["105"]["TextSize"] = 14;
+G2L["105"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["105"]["TextScaled"] = true;
+G2L["105"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["105"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["105"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["105"]["Size"] = UDim2.new(0.001, 0, 0.001, 0);
+G2L["105"]["Position"] = UDim2.new(69420, 69, 69420, 69);
+G2L["105"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["105"]["Text"] = [[OFF]];
+G2L["105"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius.Online.UITextSizeConstraint
-G2L["ff"] = Instance.new("UITextSizeConstraint", G2L["fe"]);
-G2L["ff"]["MaxTextSize"] = 71;
+G2L["106"] = Instance.new("UITextSizeConstraint", G2L["105"]);
+G2L["106"]["MaxTextSize"] = 71;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat
+G2L["107"] = Instance.new("Folder", G2L["2c"]);
+G2L["107"]["Name"] = [[Combat]];
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ButtonHandler
+G2L["108"] = Instance.new("LocalScript", G2L["107"]);
+G2L["108"]["Name"] = [[ButtonHandler]];
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP
+G2L["109"] = Instance.new("TextButton", G2L["107"]);
+G2L["109"]["TextWrapped"] = true;
+G2L["109"]["BorderSizePixel"] = 0;
+G2L["109"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["109"]["TextSize"] = 40;
+G2L["109"]["TextScaled"] = true;
+G2L["109"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["109"]["FontFace"] = Font.new([[rbxassetid://12187365104]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["109"]["Size"] = UDim2.new(0.95914, 0, 0.00028, 0);
+G2L["109"]["BackgroundTransparency"] = 1;
+G2L["109"]["Name"] = [[ESP]];
+G2L["109"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["109"]["Text"] = [[ESP]];
+G2L["109"]["Visible"] = false;
+G2L["109"]["Position"] = UDim2.new(0, 0, -0.00004, 0);
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP.UIGradient
+G2L["10a"] = Instance.new("UIGradient", G2L["109"]);
+G2L["10a"]["Rotation"] = 90;
+G2L["10a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.369, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP.UIStroke
+G2L["10b"] = Instance.new("UIStroke", G2L["109"]);
+G2L["10b"]["Thickness"] = 3;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP.UITextSizeConstraint
+G2L["10c"] = Instance.new("UITextSizeConstraint", G2L["109"]);
+G2L["10c"]["MaxTextSize"] = 69;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP.Online
+G2L["10d"] = Instance.new("TextBox", G2L["109"]);
+G2L["10d"]["Visible"] = false;
+G2L["10d"]["Active"] = false;
+G2L["10d"]["Name"] = [[Online]];
+G2L["10d"]["BorderSizePixel"] = 0;
+G2L["10d"]["TextEditable"] = false;
+G2L["10d"]["TextWrapped"] = true;
+G2L["10d"]["TextSize"] = 14;
+G2L["10d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10d"]["TextScaled"] = true;
+G2L["10d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["10d"]["Size"] = UDim2.new(0.80661, 0, 1.52531, 0);
+G2L["10d"]["Position"] = UDim2.new(28.10648, 0, 148.83604, 0);
+G2L["10d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10d"]["Text"] = [[OFF]];
+G2L["10d"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP.Online.UITextSizeConstraint
+G2L["10e"] = Instance.new("UITextSizeConstraint", G2L["10d"]);
+G2L["10e"]["MaxTextSize"] = 71;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP.LocalScript
+G2L["10f"] = Instance.new("LocalScript", G2L["109"]);
+
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.TextBoxHandler
+G2L["110"] = Instance.new("LocalScript", G2L["107"]);
+G2L["110"]["Name"] = [[TextBoxHandler]];
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim
+G2L["111"] = Instance.new("TextButton", G2L["107"]);
+G2L["111"]["TextWrapped"] = true;
+G2L["111"]["BorderSizePixel"] = 0;
+G2L["111"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["111"]["TextSize"] = 40;
+G2L["111"]["TextScaled"] = true;
+G2L["111"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["111"]["FontFace"] = Font.new([[rbxassetid://12187365104]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["111"]["Size"] = UDim2.new(0.95914, 0, 0.00028, 0);
+G2L["111"]["BackgroundTransparency"] = 1;
+G2L["111"]["Name"] = [[Silent Aim]];
+G2L["111"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["111"]["Text"] = [[Silent Aim]];
+G2L["111"]["Visible"] = false;
+G2L["111"]["Position"] = UDim2.new(0, 0, 0.00024, 0);
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim.UIGradient
+G2L["112"] = Instance.new("UIGradient", G2L["111"]);
+G2L["112"]["Rotation"] = 90;
+G2L["112"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.369, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim.UIStroke
+G2L["113"] = Instance.new("UIStroke", G2L["111"]);
+G2L["113"]["Thickness"] = 3;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim.UITextSizeConstraint
+G2L["114"] = Instance.new("UITextSizeConstraint", G2L["111"]);
+G2L["114"]["MaxTextSize"] = 69;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim.Online
+G2L["115"] = Instance.new("TextBox", G2L["111"]);
+G2L["115"]["Visible"] = false;
+G2L["115"]["Active"] = false;
+G2L["115"]["Name"] = [[Online]];
+G2L["115"]["BorderSizePixel"] = 0;
+G2L["115"]["TextEditable"] = false;
+G2L["115"]["TextWrapped"] = true;
+G2L["115"]["TextSize"] = 14;
+G2L["115"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["115"]["TextScaled"] = true;
+G2L["115"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["115"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["115"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["115"]["Size"] = UDim2.new(0.80661, 0, 1.52531, 0);
+G2L["115"]["Position"] = UDim2.new(28.10648, 0, 148.83604, 0);
+G2L["115"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["115"]["Text"] = [[OFF]];
+G2L["115"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim.Online.UITextSizeConstraint
+G2L["116"] = Instance.new("UITextSizeConstraint", G2L["115"]);
+G2L["116"]["MaxTextSize"] = 71;
+
+
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim.LocalScript
+G2L["117"] = Instance.new("LocalScript", G2L["111"]);
+
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.UIListLayout
-G2L["100"] = Instance.new("UIListLayout", G2L["2b"]);
-G2L["100"]["Padding"] = UDim.new(0.025, 0);
-G2L["100"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["118"] = Instance.new("UIListLayout", G2L["2b"]);
+G2L["118"]["Padding"] = UDim.new(0.025, 0);
+G2L["118"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrameProperties
-G2L["101"] = Instance.new("LocalScript", G2L["29"]);
-G2L["101"]["Name"] = [[ScrollingFrameProperties]];
+G2L["119"] = Instance.new("LocalScript", G2L["29"]);
+G2L["119"]["Name"] = [[ScrollingFrameProperties]];
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Bone
-G2L["102"] = Instance.new("Frame", G2L["2"]);
-G2L["102"]["BorderSizePixel"] = 0;
-G2L["102"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["102"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["102"]["Size"] = UDim2.new(0.292, 0, 0.863, 0);
-G2L["102"]["Position"] = UDim2.new(0.146, 0, 0.569, 0);
-G2L["102"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["102"]["Name"] = [[Bone]];
-G2L["102"]["BackgroundTransparency"] = 1;
+G2L["11a"] = Instance.new("Frame", G2L["2"]);
+G2L["11a"]["BorderSizePixel"] = 0;
+G2L["11a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11a"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["11a"]["Size"] = UDim2.new(0.292, 0, 0.863, 0);
+G2L["11a"]["Position"] = UDim2.new(0.146, 0, 0.569, 0);
+G2L["11a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11a"]["Name"] = [[Bone]];
+G2L["11a"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Bone.UIStroke
-G2L["103"] = Instance.new("UIStroke", G2L["102"]);
-G2L["103"]["Thickness"] = 5;
+G2L["11b"] = Instance.new("UIStroke", G2L["11a"]);
+G2L["11b"]["Thickness"] = 5;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.Tab
-G2L["104"] = Instance.new("TextBox", G2L["2"]);
-G2L["104"]["Visible"] = false;
-G2L["104"]["Name"] = [[Tab]];
-G2L["104"]["BorderSizePixel"] = 0;
-G2L["104"]["TextWrapped"] = true;
-G2L["104"]["TextSize"] = 14;
-G2L["104"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["104"]["TextScaled"] = true;
-G2L["104"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["104"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["104"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["104"]["Size"] = UDim2.new(0.28565, 0, 0.11902, 0);
-G2L["104"]["Position"] = UDim2.new(0, 1, 0, 1);
-G2L["104"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["104"]["Text"] = [[Dashboard]];
-G2L["104"]["BackgroundTransparency"] = 1;
+G2L["11c"] = Instance.new("TextBox", G2L["2"]);
+G2L["11c"]["Visible"] = false;
+G2L["11c"]["Name"] = [[Tab]];
+G2L["11c"]["BorderSizePixel"] = 0;
+G2L["11c"]["TextWrapped"] = true;
+G2L["11c"]["TextSize"] = 14;
+G2L["11c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11c"]["TextScaled"] = true;
+G2L["11c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11c"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["11c"]["Size"] = UDim2.new(0.28565, 0, 0.11902, 0);
+G2L["11c"]["Position"] = UDim2.new(0, 1, 0, 1);
+G2L["11c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11c"]["Text"] = [[Dashboard]];
+G2L["11c"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.DREADED_HUB.UIAspectRatioConstraint
-G2L["105"] = Instance.new("UIAspectRatioConstraint", G2L["1"]);
-G2L["105"]["AspectRatio"] = 1.8396;
+G2L["11d"] = Instance.new("UIAspectRatioConstraint", G2L["1"]);
+G2L["11d"]["AspectRatio"] = 1.8396;
 
 
 -- StarterGui.DREADED_HUB.LoadedSound
-G2L["106"] = Instance.new("LocalScript", G2L["1"]);
-G2L["106"]["Name"] = [[LoadedSound]];
+G2L["11e"] = Instance.new("LocalScript", G2L["1"]);
+G2L["11e"]["Name"] = [[LoadedSound]];
 
 
 -- StarterGui.DREADED_HUB.KILL_SWITCH
-G2L["107"] = Instance.new("LocalScript", G2L["1"]);
-G2L["107"]["Name"] = [[KILL_SWITCH]];
+G2L["11f"] = Instance.new("LocalScript", G2L["1"]);
+G2L["11f"]["Name"] = [[KILL_SWITCH]];
 
 
 -- StarterGui.DREADED_HUB.KILL_SWITCH.KILLING
-G2L["108"] = Instance.new("TextBox", G2L["107"]);
-G2L["108"]["Visible"] = false;
-G2L["108"]["Name"] = [[KILLING]];
-G2L["108"]["BorderSizePixel"] = 0;
-G2L["108"]["TextWrapped"] = true;
-G2L["108"]["TextSize"] = 14;
-G2L["108"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["108"]["TextScaled"] = true;
-G2L["108"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["108"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["108"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["108"]["Size"] = UDim2.new(0.807, 0, 1.525, 0);
-G2L["108"]["Position"] = UDim2.new(28.106, 0, 148.836, 0);
-G2L["108"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["108"]["Text"] = [[0]];
-G2L["108"]["BackgroundTransparency"] = 1;
+G2L["120"] = Instance.new("TextBox", G2L["11f"]);
+G2L["120"]["Visible"] = false;
+G2L["120"]["Name"] = [[KILLING]];
+G2L["120"]["BorderSizePixel"] = 0;
+G2L["120"]["TextWrapped"] = true;
+G2L["120"]["TextSize"] = 14;
+G2L["120"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["120"]["TextScaled"] = true;
+G2L["120"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["120"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["120"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["120"]["Size"] = UDim2.new(0.807, 0, 1.525, 0);
+G2L["120"]["Position"] = UDim2.new(28.106, 0, 148.836, 0);
+G2L["120"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["120"]["Text"] = [[0]];
+G2L["120"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.DREADED_HUB.Cursor
-G2L["109"] = Instance.new("ImageLabel", G2L["1"]);
-G2L["109"]["ZIndex"] = 999999999;
-G2L["109"]["BorderSizePixel"] = 0;
-G2L["109"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["109"]["ScaleType"] = Enum.ScaleType.Fit;
-G2L["109"]["ImageTransparency"] = 1;
-G2L["109"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["109"]["Image"] = [[rbxassetid://76608391243528]];
-G2L["109"]["Size"] = UDim2.new(0.03669, 0, 0.0688, 0);
-G2L["109"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["109"]["BackgroundTransparency"] = 1;
-G2L["109"]["Name"] = [[Cursor]];
-G2L["109"]["Position"] = UDim2.new(0.10329, 0, 0.17529, 0);
+G2L["121"] = Instance.new("ImageLabel", G2L["1"]);
+G2L["121"]["ZIndex"] = 999999999;
+G2L["121"]["BorderSizePixel"] = 0;
+G2L["121"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["121"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["121"]["ImageTransparency"] = 1;
+G2L["121"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["121"]["Image"] = [[rbxassetid://76608391243528]];
+G2L["121"]["Size"] = UDim2.new(0.03669, 0, 0.0688, 0);
+G2L["121"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["121"]["BackgroundTransparency"] = 1;
+G2L["121"]["Name"] = [[Cursor]];
+G2L["121"]["Position"] = UDim2.new(0.10329, 0, 0.17529, 0);
 
 
 -- StarterGui.DREADED_HUB.Cursor.CursorScript
-G2L["10a"] = Instance.new("LocalScript", G2L["109"]);
-G2L["10a"]["Name"] = [[CursorScript]];
+G2L["122"] = Instance.new("LocalScript", G2L["121"]);
+G2L["122"]["Name"] = [[CursorScript]];
 
 
 -- StarterGui.DREADED_HUB.InventoryHitbox
-G2L["10b"] = Instance.new("Frame", G2L["1"]);
-G2L["10b"]["Visible"] = false;
-G2L["10b"]["BorderSizePixel"] = 0;
-G2L["10b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["10b"]["Size"] = UDim2.new(0.33172, 0, 0.35831, 0);
-G2L["10b"]["Position"] = UDim2.new(6999, 1, 0, 1);
-G2L["10b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10b"]["Name"] = [[InventoryHitbox]];
-G2L["10b"]["BackgroundTransparency"] = 1;
+G2L["123"] = Instance.new("Frame", G2L["1"]);
+G2L["123"]["Visible"] = false;
+G2L["123"]["BorderSizePixel"] = 0;
+G2L["123"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["123"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["123"]["Size"] = UDim2.new(0.33172, 0, 0.35831, 0);
+G2L["123"]["Position"] = UDim2.new(6999, 1, 0, 1);
+G2L["123"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["123"]["Name"] = [[InventoryHitbox]];
+G2L["123"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.DREADED_HUB.HotbarHitbox
-G2L["10c"] = Instance.new("Frame", G2L["1"]);
-G2L["10c"]["Visible"] = false;
-G2L["10c"]["BorderSizePixel"] = 0;
-G2L["10c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10c"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["10c"]["Size"] = UDim2.new(0.33172, 0, 0.05881, 0);
-G2L["10c"]["Position"] = UDim2.new(6999, 1, 0, 1);
-G2L["10c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10c"]["Name"] = [[HotbarHitbox]];
-G2L["10c"]["BackgroundTransparency"] = 1;
+G2L["124"] = Instance.new("Frame", G2L["1"]);
+G2L["124"]["Visible"] = false;
+G2L["124"]["BorderSizePixel"] = 0;
+G2L["124"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["124"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["124"]["Size"] = UDim2.new(0.33172, 0, 0.05881, 0);
+G2L["124"]["Position"] = UDim2.new(6999, 1, 0, 1);
+G2L["124"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["124"]["Name"] = [[HotbarHitbox]];
+G2L["124"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.DREADED_HUB.WholeThang.ToggleScript
@@ -4942,7 +5152,17 @@ task.spawn(C_e6);
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Jerk Off.LocalScript
 local function C_eb()
 local script = G2L["eb"];
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
 	
+	button.MouseButton1Click:Connect(function()
+		task.delay(.05, function()
+			script.Parent.Online.Text = "OFF"
+		end)
+		
+		loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+	end)
 end;
 task.spawn(C_eb);
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.TextBoxHandler
@@ -4958,9 +5178,15 @@ local script = G2L["ee"];
 	end
 end;
 task.spawn(C_ee);
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Miscellaneous.Fake Lag.LocalScript
+local function C_f5()
+local script = G2L["f5"];
+	
+end;
+task.spawn(C_f5);
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.ButtonHandler
-local function C_f0()
-local script = G2L["f0"];
+local function C_f7()
+local script = G2L["f7"];
 	local buttons = script.Parent:GetChildren()
 	local isHovering = {}
 	
@@ -5092,10 +5318,10 @@ local script = G2L["f0"];
 		task.wait()
 	end
 end;
-task.spawn(C_f0);
+task.spawn(C_f7);
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Solara Hub.LocalScript
-local function C_f5()
-local script = G2L["f5"];
+local function C_fc()
+local script = G2L["fc"];
 	local button = script.Parent
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
@@ -5107,10 +5333,10 @@ local script = G2L["f5"];
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/Solara%20Hub.lua"))()
 	end)
 end;
-task.spawn(C_f5);
+task.spawn(C_fc);
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.TextBoxHandler
-local function C_f8()
-local script = G2L["f8"];
+local function C_ff()
+local script = G2L["ff"];
 	while true do
 		for _, TextBoxScript in pairs(script.Parent:GetDescendants()) do
 			if TextBoxScript.Name == "TextBoxScript" and TextBoxScript.Enabled == false then
@@ -5120,10 +5346,10 @@ local script = G2L["f8"];
 		task.wait()
 	end
 end;
-task.spawn(C_f8);
+task.spawn(C_ff);
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Script Hubs.Sirius.LocalScript
-local function C_fd()
-local script = G2L["fd"];
+local function C_104()
+local script = G2L["104"];
 	local button = script.Parent
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
@@ -5135,10 +5361,382 @@ local script = G2L["fd"];
 		loadstring(game:HttpGet('https://sirius.menu/sirius'))()
 	end)
 end;
-task.spawn(C_fd);
+task.spawn(C_104);
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ButtonHandler
+local function C_108()
+local script = G2L["108"];
+	local buttons = script.Parent:GetChildren()
+	local isHovering = {}
+	
+	local InvisCD = false
+	local InvisCooldownTime = 0.75
+	
+	for _, b in ipairs(buttons) do
+		if b:IsA("TextButton") then
+			isHovering[b] = false
+	
+			b.MouseEnter:Connect(function()
+				isHovering[b] = true
+				local player = game:GetService("Players").LocalPlayer
+				local sound = Instance.new("Sound")
+				sound.Volume = 0.375
+				sound.SoundId = "rbxassetid://421058925"
+				sound.Name = "Sound"
+				sound.Parent = player.Character
+				if script.Parent.Parent.Parent.Parent.Parent.Tab.Text == script.Parent.Name then
+					sound:Play()
+				end
+				task.delay(1, function()
+					sound:Destroy()
+				end)
+			end)
+	
+			b.MouseLeave:Connect(function()
+				isHovering[b] = false
+			end)
+	
+			b.MouseButton1Click:Connect(function()
+				if b.Name == "Invisible" then
+					if InvisCD == false then
+						InvisCD = true
+						task.delay(InvisCooldownTime, function()
+							InvisCD = false
+						end)
+						local player = game:GetService("Players").LocalPlayer
+						local clickSound = Instance.new("Sound")
+						clickSound.Volume = 0.5
+						clickSound.SoundId = "rbxassetid://535716488"
+						clickSound.Name = "Sound"
+						clickSound.Parent = player.Character
+						clickSound:Play()
+						task.delay(1, function()
+							clickSound:Destroy()
+						end)
+						if b:FindFirstChild("Online").Text == "OFF" then
+							b:FindFirstChild("Online").Text = "ON"
+						else
+							b:FindFirstChild("Online").Text = "OFF"
+						end
+					else
+						local player = game:GetService("Players").LocalPlayer
+						local clickSound = Instance.new("Sound")
+						clickSound.Volume = 1
+						clickSound.SoundId = "rbxassetid://550209561"
+						clickSound.Name = "Sound"
+						clickSound.Parent = player.Character
+						clickSound:Play()
+						task.delay(1, function()
+							clickSound:Destroy()
+						end)
+					end
+				elseif b.Name == "Fling" then
+					if script.Parent.Parent.FlingActive.Text == "ON" then
+						local player = game:GetService("Players").LocalPlayer
+						local clickSound = Instance.new("Sound")
+						clickSound.Volume = 1
+						clickSound.SoundId = "rbxassetid://550209561"
+						clickSound.Name = "Sound"
+						clickSound.Parent = player.Character
+						clickSound:Play()
+						task.delay(1, function()
+							clickSound:Destroy()
+						end)
+					else
+						local player = game:GetService("Players").LocalPlayer
+						local clickSound = Instance.new("Sound")
+						clickSound.Volume = 0.5
+						clickSound.SoundId = "rbxassetid://535716488"
+						clickSound.Name = "Sound"
+						clickSound.Parent = player.Character
+						clickSound:Play()
+						task.delay(1, function()
+							clickSound:Destroy()
+						end)
+						if b:FindFirstChild("Online").Text == "OFF" then
+							b:FindFirstChild("Online").Text = "ON"
+						else
+							b:FindFirstChild("Online").Text = "OFF"
+						end
+					end
+				else
+					local player = game:GetService("Players").LocalPlayer
+					local clickSound = Instance.new("Sound")
+					clickSound.Volume = 0.5
+					clickSound.SoundId = "rbxassetid://535716488"
+					clickSound.Name = "Sound"
+					clickSound.Parent = player.Character
+					clickSound:Play()
+					task.delay(1, function()
+						clickSound:Destroy()
+					end)
+					if b:FindFirstChild("Online").Text == "OFF" then
+						b:FindFirstChild("Online").Text = "ON"
+					else
+						b:FindFirstChild("Online").Text = "OFF"
+					end
+				end
+			end)
+		end
+	end
+	
+	while true do
+		for _, b in ipairs(buttons) do
+			if b:IsA("TextButton") then
+				if isHovering[b] and b:FindFirstChild("Online").Text == "OFF" then
+					b.TextColor3 = Color3.new(0.294118, 0, 0)
+				elseif isHovering[b] and b:FindFirstChild("Online").Text == "ON" then
+					b.TextColor3 = Color3.new(0.196078, 0.196078, 0.215686)
+				elseif isHovering[b] == false and b:FindFirstChild("Online").Text == "ON" then
+					b.TextColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+				else
+					b.TextColor3 = Color3.new(1, 0, 0)
+				end
+			end
+		end
+		task.wait()
+	end
+end;
+task.spawn(C_108);
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.ESP.LocalScript
+local function C_10f()
+local script = G2L["10f"];
+	local onlineLabel = script.Parent:WaitForChild("Online")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local RunService = game:GetService("RunService")
+	
+	local UI_CONFIG = {
+		Font = Font.fromId(12187365104, Enum.FontWeight.Regular),
+		Stroke = {
+			Enabled = true,
+			Color = Color3.new(0, 0, 0),
+			Thickness = 2,
+		},
+		Gradient = {
+			ColorSequence = ColorSequence.new{
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(50, 50, 50))
+			},
+			Rotation = 90,
+		},
+		HealthBarCorner = UDim.new(0, 0),
+		HealthBarBackgroundTransparency = 0,
+		ShowTextStroke = true,
+		TextStrokeColor = Color3.new(0, 0, 0),
+	}
+	
+	function addUIEnhancements(instance, applyStroke)
+		if applyStroke and UI_CONFIG.Stroke.Enabled then
+			local stroke = Instance.new("UIStroke")
+			stroke.Thickness = UI_CONFIG.Stroke.Thickness
+			stroke.Color = UI_CONFIG.Stroke.Color
+			stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+			stroke.Parent = instance
+		end
+	
+		local gradient = Instance.new("UIGradient")
+		gradient.Color = UI_CONFIG.Gradient.ColorSequence
+		gradient.Rotation = UI_CONFIG.Gradient.Rotation
+		gradient.Parent = instance
+	end
+	
+	function createBillboard(player)
+		local character = player.Character
+		if not character then return end
+		if character:FindFirstChild("InfoGui") then return end
+	
+		local billboard = Instance.new("BillboardGui")
+		billboard.Name = "InfoGui"
+		billboard.Adornee = character:WaitForChild("Head", 2)
+		if not billboard.Adornee then return end
+		billboard.Size = UDim2.new(0, 150, 0, 90)
+		billboard.StudsOffset = Vector3.new(0, 3, 0)
+		billboard.AlwaysOnTop = true
+		billboard.SizeOffset = Vector2.new(0, 0)
+		billboard.Parent = character
+	
+		local nameLabel = Instance.new("TextLabel")
+		nameLabel.Name = "NameLabel"
+		nameLabel.Size = UDim2.new(1, 0, 0.25, 0)
+		nameLabel.Position = UDim2.new(0, 0, 0, 0)
+		nameLabel.BackgroundTransparency = 1
+		nameLabel.TextStrokeTransparency = UI_CONFIG.ShowTextStroke and 0 or 1
+		nameLabel.TextStrokeColor3 = UI_CONFIG.TextStrokeColor
+		nameLabel.TextScaled = true
+		nameLabel.FontFace = UI_CONFIG.Font
+		nameLabel.Text = player.Name
+		nameLabel.Parent = billboard
+		addUIEnhancements(nameLabel, true)
+	
+		local distanceLabel = Instance.new("TextLabel")
+		distanceLabel.Name = "DistanceLabel"
+		distanceLabel.Size = UDim2.new(1, 0, 0.25, 0)
+		distanceLabel.Position = UDim2.new(0, 0, 0.25, 0)
+		distanceLabel.BackgroundTransparency = 1
+		distanceLabel.TextStrokeTransparency = UI_CONFIG.ShowTextStroke and 0 or 1
+		distanceLabel.TextStrokeColor3 = UI_CONFIG.TextStrokeColor
+		distanceLabel.TextScaled = true
+		distanceLabel.FontFace = UI_CONFIG.Font
+		distanceLabel.Parent = billboard
+		addUIEnhancements(distanceLabel, true)
+	
+		-- Health Bar Background
+		local healthBarBG = Instance.new("Frame")
+		healthBarBG.Name = "HealthBarBG"
+		healthBarBG.Size = UDim2.new(0.8, 0, 0.1, 0)
+		healthBarBG.Position = UDim2.new(0.1, 0, 0.55, 0)  -- Adjusted position (halfway between original and new)
+		healthBarBG.BackgroundTransparency = 0
+		healthBarBG.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		healthBarBG.BorderSizePixel = 0
+		addUIEnhancements(healthBarBG, true)  -- Adding UIStroke to the health bar background
+		healthBarBG.Parent = billboard
+	
+		-- Health Bar
+		local healthBar = Instance.new("Frame")
+		healthBar.Name = "HealthBar"
+		healthBar.Size = UDim2.new(1, -2, 1, 0)  -- Reduced size by 2px for slight centering
+		healthBar.Position = UDim2.new(0, 1, 0, 0)  -- Shifted 1px to the right to better center it
+		healthBar.BorderSizePixel = 0
+		healthBar.BackgroundColor3 = Color3.new(0, 1, 0)
+		healthBar.Parent = healthBarBG
+	
+		local healthCorner = Instance.new("UICorner")
+		healthCorner.CornerRadius = UI_CONFIG.HealthBarCorner
+		healthCorner.Parent = healthBar
+	
+		addUIEnhancements(healthBar, true)
+	end
+	
+	function updateInfo()
+		for _, player in pairs(Players:GetPlayers()) do
+			if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("Head") then
+				local gui = player.Character:FindFirstChild("InfoGui")
+				if gui then
+					local teamColor = (player.Team and player.Team.TeamColor.Color) or Color3.new(1, 1, 1)
+					gui.NameLabel.TextColor3 = teamColor
+					gui.DistanceLabel.TextColor3 = teamColor
+	
+					local localHRP = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+					local targetHRP = player.Character:FindFirstChild("HumanoidRootPart")
+					if localHRP and targetHRP then
+						local distance = math.floor((targetHRP.Position - localHRP.Position).Magnitude)
+						gui.DistanceLabel.Text = "Distance: " .. distance
+					else
+						gui.DistanceLabel.Text = "Distance: N/A"
+					end
+	
+					local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+					local healthBar = gui:FindFirstChild("HealthBarBG") and gui.HealthBarBG:FindFirstChild("HealthBar")
+					local healthBarBG = gui:FindFirstChild("HealthBarBG")
+	
+					if humanoid and healthBar and healthBarBG then
+						local health = math.clamp(humanoid.Health, 0, humanoid.MaxHealth)
+						local percent = health / humanoid.MaxHealth
+						healthBar.Size = UDim2.new(percent, 0, 1, 0)
+	
+						-- If health is 100%, hide both the health bar and its background
+						if percent == 1 then
+							healthBar.Visible = false
+							healthBarBG.Visible = false
+						else
+							healthBar.Visible = true
+							healthBarBG.Visible = true
+						end
+	
+						if percent <= 0.25 then
+							healthBar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)  -- Red for 0-25%
+						elseif percent <= 0.35 then
+							healthBar.BackgroundColor3 = Color3.fromRGB(255, 165, 0)  -- Orange for 25-35%
+						elseif percent <= 0.60 then
+							healthBar.BackgroundColor3 = Color3.fromRGB(255, 255, 0)  -- Yellow for 35-60%
+						else
+							healthBar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)  -- Green for 60-100%
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	function applyHighlights()
+		for _, player in pairs(Players:GetPlayers()) do
+			if player ~= LocalPlayer then
+				local character = player.Character
+				if character then
+					if not character:FindFirstChild("Highlight") then
+						local highlight = Instance.new("Highlight")
+						highlight.Name = "Highlight"
+						highlight.FillColor = player.Team and player.Team.TeamColor.Color or Color3.new(1, 1, 1)
+						highlight.OutlineColor = Color3.new(0, 0, 0)
+						highlight.OutlineTransparency = 0
+						highlight.Adornee = character
+						highlight.Parent = character
+					end
+					createBillboard(player)
+				end
+			end
+		end
+	end
+	
+	function removeHighlights()
+		for _, player in pairs(Players:GetPlayers()) do
+			local character = player.Character
+			if character then
+				local highlight = character:FindFirstChild("Highlight")
+				if highlight then
+					highlight:Destroy()
+				end
+				local infoGui = character:FindFirstChild("InfoGui")
+				if infoGui then
+					infoGui:Destroy()
+				end
+			end
+		end
+	end
+	
+	RunService.RenderStepped:Connect(function()
+		if onlineLabel.Text == "ON" then
+			updateInfo()
+		end
+	end)
+	
+	while true do
+		if not script.Parent.Parent.Parent.Parent.Parent.Parent.Parent:FindFirstChild("KILLING...") then
+			if onlineLabel.Text == "ON" then
+				applyHighlights()
+			else
+				removeHighlights()
+			end
+		else
+			removeHighlights()
+		end
+		task.wait()
+	end
+	
+end;
+task.spawn(C_10f);
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.TextBoxHandler
+local function C_110()
+local script = G2L["110"];
+	while true do
+		for _, TextBoxScript in pairs(script.Parent:GetDescendants()) do
+			if TextBoxScript.Name == "TextBoxScript" and TextBoxScript.Enabled == false then
+				TextBoxScript.Enabled = true
+			end
+		end
+		task.wait()
+	end
+end;
+task.spawn(C_110);
+-- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrame.Holder.Combat.Silent Aim.LocalScript
+local function C_117()
+local script = G2L["117"];
+	
+end;
+task.spawn(C_117);
 -- StarterGui.DREADED_HUB.WholeThang.Meat.ScrollingFrameProperties
-local function C_101()
-local script = G2L["101"];
+local function C_119()
+local script = G2L["119"];
 	local Tab = script.Parent.Parent.Tab
 	local ScrollingFrame = script.Parent.ScrollingFrame
 	local Holder = ScrollingFrame:FindFirstChild("Holder")
@@ -5185,10 +5783,10 @@ local script = G2L["101"];
 	updateTab()
 	
 end;
-task.spawn(C_101);
+task.spawn(C_119);
 -- StarterGui.DREADED_HUB.LoadedSound
-local function C_106()
-local script = G2L["106"];
+local function C_11e()
+local script = G2L["11e"];
 	local player = game:GetService("Players").LocalPlayer
 	local playerGui = script.Parent:FindFirstAncestorWhichIsA("PlayerGui")
 	if playerGui then
@@ -5229,10 +5827,10 @@ local script = G2L["106"];
 	task.wait()
 	script.Parent.Name = "DREADED_HUB"
 end;
-task.spawn(C_106);
+task.spawn(C_11e);
 -- StarterGui.DREADED_HUB.KILL_SWITCH
-local function C_107()
-local script = G2L["107"];
+local function C_11f()
+local script = G2L["11f"];
 	local UserInputService = game:GetService("UserInputService")
 	
 	local isJKeyHeld = false
@@ -5270,6 +5868,19 @@ local script = G2L["107"];
 		sound.Parent = game.Players.LocalPlayer.Character
 		sound:Play()
 		script.Parent.Enabled = false
+		for _, player in pairs(game.Players:GetPlayers()) do
+			local character = player.Character
+			if character then
+				local highlight = character:FindFirstChild("Highlight")
+				if highlight then
+					highlight:Destroy()
+				end
+				local infoGui = character:FindFirstChild("InfoGui")
+				if infoGui then
+					infoGui:Destroy()
+				end
+			end
+		end
 		mouseKill()
 		task.wait(.5)
 		mouseKill()
@@ -5334,10 +5945,10 @@ local script = G2L["107"];
 	script:WaitForChild("KILLING"):GetPropertyChangedSignal("Text"):Connect(SWAP)
 	
 end;
-task.spawn(C_107);
+task.spawn(C_11f);
 -- StarterGui.DREADED_HUB.Cursor.CursorScript
-local function C_10a()
-local script = G2L["10a"];
+local function C_122()
+local script = G2L["122"];
 	local UserInputService = game:GetService("UserInputService")
 	local Players = game:GetService("Players")
 	local GuiService = game:GetService("GuiService")
@@ -5374,6 +5985,6 @@ local script = G2L["10a"];
 	end
 	
 end;
-task.spawn(C_10a);
+task.spawn(C_122);
 
 return G2L["1"], require;
